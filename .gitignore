@@ -1,0 +1,32 @@
+# ignore all .a files
+*.a
+# but do track lib.a, even though you're ignoring .a files above
+!lib.a
+# only ignore the TODO file in the current directory, not subdir/TODO
+/TODO
+# ignore all files in any directory named build
+
+.idea
+
+Boost_StateChart_Introductory/build
+Boost_StateChart_Introductory/cmake-build-debug
+Boost_StateChart_Introductory/cmake-build-release
+Boost_StateChart_Introductory/.idea
+
+Camera/build
+Camera/cmake-build-debug
+Camera/cmake-build-release
+Camera/.idea
+
+Keyboard/build
+Keyboard/cmake-build-debug
+Keyboard/cmake-build-release
+Keyboard/.idea
+
+# ignore doc/notes.txt, but not doc/server/arch.txt
+doc/*.txt
+# ignore all .pdf files in the doc/ directory and any of its subdirectories
+doc/**/*.pdf
+
+#.bkp file created by drawIO
+.bkp
